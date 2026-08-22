@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting Involved | Mustang Aviation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="images/logo-mark.svg" alt="" class="logo-mark">
+    <span class="logo-text">MUSTANG<span>AVIATION</span></span>
+    <span class="logo-cat">😺</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="getting-involved.html" class="active">Getting Involved</a></li>
+    <li><a href="point-log-form.html">Point Log Form</a></li>
+    <li><a href="leaderboard.html">Leaderboard</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1>Getting Involved!!</h1>
+</header>
+
+<section class="section">
+  <p class="intro-text">Aviation is the perfect place for anyone interested in becoming a pilot, engineering, design, rocketry, leadership, and community!</p>
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE A PILOT <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><!-- TODO: paste the exact text from this section on the original site --></p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE AN AVIATION ENGINEER <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><!-- TODO: paste the exact text from this section on the original site --></p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE A ROCKETRY ENGINEER <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><!-- TODO: paste the exact text from this section on the original site --></p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE INVOLVED IN VOLUNTEERING AND LEADERSHIP <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><!-- TODO: paste the exact text from this section on the original site --></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>Mustang Aviation &middot; Muhlenberg High School Aeronautics Club</footer>
+
+<script>
+document.querySelectorAll('.accordion-header').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.parentElement.classList.toggle('open');
+  });
+});
+</script>
+
+</body>
+</html>
