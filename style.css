@@ -45,21 +45,10 @@ h1, h2, .display {
   text-decoration: none;
 }
 
-.logo-mark {
-  width: 46px;
-  height: 46px;
-}
-
-.logo-text {
-  font-family: 'Rye', serif;
-  font-size: 1.1rem;
-  line-height: 1.05;
-  color: var(--maroon);
-}
-
-.logo-text span {
+.logo-img {
+  height: 40px;
+  width: auto;
   display: block;
-  color: var(--brick);
 }
 
 .logo-cat {
