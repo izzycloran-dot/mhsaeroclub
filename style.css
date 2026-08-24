@@ -242,6 +242,16 @@ h1, h2, .display {
   line-height: 1.6;
 }
 
+.accordion-body a {
+  color: #e8a0b4;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.accordion-body a:hover {
+  color: #d97e97;
+}
+
 .accordion-item.open .accordion-body {
   max-height: 600px;
   padding-bottom: 24px;
